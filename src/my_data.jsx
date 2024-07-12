@@ -1,25 +1,26 @@
 //Hero Navigation data
-import imageHero from "./src/assets/images/judens.png";
-// import header2 from "./src/assets/images/jundes2.png";
-import imgBc from "./src/assets/images/header-imgbg.png";
-import logo from "./src/assets/images/logo.png";
-import element from "./src/assets/images/elements1.png";
+import imageHero from "./assets/images/judens.png";
+import background from "./assets/images/bg.png";
+import logo from "./assets/images/logo.png";
+import blue_circle from "./assets/images/blue_circle.png";
+import circle from "./assets/images/circle_bg.png";
 //End Hero Navigation data
 
 // Technologies
-import laravel from "./src/assets/images/laravel.svg";
-import php from "./src/assets/images/php.svg";
-import javascript from "./src/assets/images/javascript.webp";
-import reactjs from "./src/assets/images/reactjs.svg";
-import tailwindcss from "./src/assets/images/tailwindcss.webp";
-import mysqld from "./src/assets/images/mysql.webp";
+import laravel from "./assets/images/laravel.svg";
+import php from "./assets/images/php.svg";
+import javascript from "./assets/images/javascript.webp";
+import reactjs from "./assets/images/reactjs.svg";
+import tailwindcss from "./assets/images/tailwindcss.webp";
+import mysqld from "./assets/images/mysql.webp";
 // End Technologies
 
 export const heroNavigation = {
-  element: element,
+  circle: circle,
   imgHero: imageHero,
-  imgBackground: imgBc,
+  background: background,
   logo: logo,
+  blue_circle: blue_circle,
 };
 
 export const technologies = [

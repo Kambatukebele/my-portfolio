@@ -1,42 +1,20 @@
 import { useState } from "react";
-export const Header = ({ logo, element, imgHero, imgBackground, Icon }) => {
+import { Icon, heroNavigation } from "../../my_data";
+import Logo from "../Logo";
+import Ul from "./Ul";
+const Header = () => {
+  const { circle, background, logo, imgHero, blue_circle } = heroNavigation;
   const [isOpen, setIsOpen] = useState(false);
   const handleShowHideMenuOnSmallDevice = () => {
     setIsOpen(!isOpen);
   };
   return (
-    <header className="bg-custom-bg h-[900px] bg-red-300 bg-no-repeat bg-cover bg-center  xl:h-screen xl:relative">
-      <div className="container h-fit mx-auto flex flex-col justify-center gap-4 xl:gap-0 ">
+    <header className="bg-custom-bg h-[900px] bg-no-repeat bg-cover bg-center  xl:h-screen xl:relative">
+      <div className="container h-fit mx-auto flex flex-col justify-center gap-4 xl:gap-0">
         <nav className="flex justify-between items-center py-4 z-40">
           {/* Logo */}
-          <a className="w-[100px] block" href="#">
-            <img
-              className="block w-full h-full object-cover object-center"
-              src={logo}
-              alt=""
-            />
-          </a>
-          <ul
-            className={`${
-              isOpen ? " left-0" : "-left-[1024px]"
-            } flex w-full bg-white absolute top-16 right-0 bottom-0 z-50  ease-in duration-500 justify-start items-center gap-4 flex-col py-4 h-[600px] lg:static lg:top-0 lg:h-0 lg:flex-row lg:bg-transparent xl:justify-center xl:gap-8`}
-          >
-            <li>
-              <a href="#">Home</a>
-            </li>
-            <li>
-              <a href="#">About</a>
-            </li>
-            <li>
-              <a href="#">Services</a>
-            </li>
-            <li>
-              <a href="#">Blogs</a>
-            </li>
-            <li>
-              <a href="#">Contact Us</a>
-            </li>
-          </ul>
+          <Logo logo={logo} />
+          <Ul isOpen={isOpen} />
           <button className="hidden xl:bg-purple-700 xl:w-[228px] xl:h-[48px] xl:rounded-xl xl:text-white xl:flex xl:justify-center xl:items-center xl:gap-2">
             <a href="#">Start Ranking</a>
             <Icon />
@@ -155,7 +133,7 @@ export const Header = ({ logo, element, imgHero, imgBackground, Icon }) => {
               <div className="absolute top-0 left-0 right-0 z-0 w-[280px] mx-auto h-auto sm:w-[320px] xl:w-[600px]">
                 <img
                   className="w-full h-full object-cover object-center"
-                  src={imgBackground}
+                  src={circle}
                   alt=""
                 />
               </div>
@@ -266,8 +244,10 @@ export const Header = ({ logo, element, imgHero, imgBackground, Icon }) => {
         </div>
       </div>
       <div className="absolute top-20 left-0 animate-pulse">
-        <img src={element} alt="" />
+        <img src={blue_circle} alt="" />
       </div>
     </header>
   );
 };
+
+export default Header;

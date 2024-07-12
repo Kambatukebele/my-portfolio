@@ -1,10 +1,9 @@
-import { technologies, heroNavigation, Icon } from "../my-data";
-import { Header } from "./components/HeroNavigation/Header";
+import Header from "./components/HeroNavigation/Header";
 function App() {
   return (
     <main className="font-figtree">
-      <Header {...heroNavigation} Icon={Icon} />
-      <section>
+      <Header />
+      {/* <section>
         <div>
           <div>
             <h3>Technology I use</h3>
@@ -24,7 +23,7 @@ function App() {
             })}
           </div>
         </div>
-      </section>
+      </section> */}
     </main>
   );
 }
