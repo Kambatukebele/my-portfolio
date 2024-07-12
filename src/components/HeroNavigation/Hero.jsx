@@ -3,13 +3,12 @@ import Image from "../Image";
 import Paragraph from "../Paragraph";
 import cup from "../../assets/svg/cup.svg";
 import lamp from "../../assets/svg/lamp.svg";
+import H6 from "../H6";
 const Hero = ({ image }) => {
   return (
     <div className="w-full flex flex-col justify-between items-center gap-4 xl:flex-row xl:items-center xl:absolute xl:top-1/2 xl:left-1/2 xl:-translate-x-1/2 xl:-translate-y-1/2 xl:container xl:h-fit">
       <div className="flex flex-col justify-center items-start gap-5 mt-8 xl:w-1/2 xl:mt-0">
-        <h6 className="text-sm bg-purple50 font-semibold flex justify-center items-center h-[33px] w-[250px] rounded-lg text-center text-black">
-          Hey! I am KAMBA TUKEBELE
-        </h6>
+        <H6 h6Title="Hey! I am KAMBA TUKEBELE" />
         <h1 className="text-4xl font-bold text-start md:text-6xl">
           Reliable Shopify Developer for Your E-commerce Needs
         </h1>

@@ -1,3 +1,12 @@
+//Font Awesome Icons
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faStore } from "@fortawesome/free-solid-svg-icons";
+import { faShareFromSquare } from "@fortawesome/free-solid-svg-icons";
+import { faWrench } from "@fortawesome/free-solid-svg-icons";
+import { faMeteor } from "@fortawesome/free-solid-svg-icons";
+import { faHeartPulse } from "@fortawesome/free-solid-svg-icons";
+import { faEnvelopeOpenText } from "@fortawesome/free-solid-svg-icons";
+
 //Hero Navigation data
 import imageHero from "./assets/images/judens.png";
 import background from "./assets/images/bg.png";
@@ -86,3 +95,48 @@ export const Icon = () => {
     </span>
   );
 };
+
+export const services = [
+  {
+    id: 1,
+    icon: <FontAwesomeIcon icon={faStore} />,
+    title: "Shopify website",
+    description:
+      "Shopify is an ideal choice for a winning ecommerce website. From full, end to end builds, design and development, I've got you covered.",
+  },
+  {
+    id: 2,
+    icon: <FontAwesomeIcon icon={faShareFromSquare} />,
+    title: "Migrations & moves",
+    description:
+      "Moving an ecommerce website to Shopify is no mean feat! Let me take the headache out of it and take over the heavy lifting for you",
+  },
+  {
+    id: 3,
+    icon: <FontAwesomeIcon icon={faWrench} />,
+    title: "Theme development",
+    description:
+      "I can help build custom Shopify themes, add to existing themes or advise on your current Shopify site setup.",
+  },
+  {
+    id: 4,
+    icon: <FontAwesomeIcon icon={faMeteor} />,
+    title: "Headless Shopify",
+    description:
+      "For ultimate ecommerce website performance, I can deliver Shopify as a headless ecommerce solution, wiring it up with a static front end.",
+  },
+  {
+    id: 5,
+    icon: <FontAwesomeIcon icon={faHeartPulse} />,
+    title: "Conversion Rate Optimisation & SEO",
+    description:
+      "Current Shopify site not converting customers as well as it did? Need help climbing those search rankings? Let me take a look for you.",
+  },
+  {
+    id: 6,
+    icon: <FontAwesomeIcon icon={faEnvelopeOpenText} />,
+    title: "Email Marketing Integration",
+    description:
+      "Will help you integrate an email provider to your store and creat and run email campaigns",
+  },
+];

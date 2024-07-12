@@ -1,4 +1,6 @@
 import Header from "./components/HeroNavigation/Header";
+import Services from "./components/services/Services";
+import { technologies } from "./my_data";
 function App() {
   return (
     <main className="font-figtree">
@@ -24,6 +26,7 @@ function App() {
           </div>
         </div>
       </section> */}
+      <Services />
     </main>
   );
 }

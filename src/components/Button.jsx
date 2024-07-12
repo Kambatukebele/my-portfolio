@@ -1,5 +1,6 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
+import { faArrowRight, faStore } from "@fortawesome/free-solid-svg-icons";
+
 import { useState } from "react";
 
 const Button = ({ buttonText, buttonExtraClass, buttonIconClass }) => {

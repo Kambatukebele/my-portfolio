@@ -8,6 +8,7 @@ export default {
       },
       backgroundImage: {
         "custom-bg": "url(./assets/images/bg.png)",
+        "bg-longue": "url(./assets/images/bg_longue.png)",
       },
       container: {
         padding: {
