@@ -24,9 +24,14 @@ export default {
           "0%, 100%": { transform: "translateY(0)" },
           "50%": { transform: "translateY(-5px)" },
         },
+        rotate: {
+          "0%": { transform: "rotate(0deg)" },
+          "100%": { transform: "rotate(360deg)" },
+        },
       },
       animation: {
         upAndDown: "upAndDown 3s infinite",
+        slowRotate: "rotate 10s linear infinite",
       },
     },
     colors: {

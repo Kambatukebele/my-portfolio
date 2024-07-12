@@ -1,12 +1,12 @@
-import CardServices from "../../components/services/CardServices";
-import { services } from "../../my_data";
+import CardProblem from "./CardProblem";
+import { problems } from "../../my_data";
 import Button from "../Button";
-const DownDiv = () => {
+const DownProblem = () => {
   return (
     <>
       <div className="grid gap-4 grid-cols-1 grid-rows-1 sm:grid-cols-2 sm:grid-rows-2 md:grid-cols-3 lg:gap-10">
-        {services.map((service) => {
-          return <CardServices {...service} />;
+        {problems.map((problem) => {
+          return <CardProblem {...problem} />;
         })}
       </div>
       <div className="w-full flex justify-center items-center">
@@ -19,4 +19,4 @@ const DownDiv = () => {
     </>
   );
 };
-export default DownDiv;
+export default DownProblem;

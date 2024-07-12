@@ -6,6 +6,14 @@ import { faWrench } from "@fortawesome/free-solid-svg-icons";
 import { faMeteor } from "@fortawesome/free-solid-svg-icons";
 import { faHeartPulse } from "@fortawesome/free-solid-svg-icons";
 import { faEnvelopeOpenText } from "@fortawesome/free-solid-svg-icons";
+import { faThumbsUp } from "@fortawesome/free-solid-svg-icons";
+import { faLightbulb } from "@fortawesome/free-solid-svg-icons";
+import { faBuilding } from "@fortawesome/free-solid-svg-icons";
+import { faFaceTired } from "@fortawesome/free-solid-svg-icons";
+import { faHeadset } from "@fortawesome/free-solid-svg-icons";
+import { faFaceFrown } from "@fortawesome/free-solid-svg-icons";
+import { faChartLine } from "@fortawesome/free-solid-svg-icons";
+import { faBatteryFull } from "@fortawesome/free-solid-svg-icons";
 
 //Hero Navigation data
 import imageHero from "./assets/images/judens.png";
@@ -138,5 +146,96 @@ export const services = [
     title: "Email Marketing Integration",
     description:
       "Will help you integrate an email provider to your store and creat and run email campaigns",
+  },
+];
+
+//problems
+export const problems = [
+  {
+    id: 1,
+    icon: <FontAwesomeIcon icon={faLightbulb} />,
+    description:
+      "You're looking to launch a new Shopify ecommerce website and need planning and development advice to get started.",
+  },
+  {
+    id: 2,
+    icon: <FontAwesomeIcon icon={faBuilding} />,
+    description: "You want to design and develop a custom Shopify theme.",
+  },
+  {
+    id: 3,
+    icon: <FontAwesomeIcon icon={faFaceTired} />,
+    description:
+      "You're existing Shopify website is not performing or converting sales well as it could.",
+  },
+  {
+    id: 4,
+    icon: <FontAwesomeIcon icon={faHeadset} />,
+    description:
+      "You want to use Shopify as a core part of your ecommerce strategy and need support to develop a solution.",
+  },
+  {
+    id: 5,
+    icon: <FontAwesomeIcon icon={faFaceFrown} />,
+    description:
+      "You want to migrate your current ecommerce solution to Shopify but aren't sure where to start.",
+  },
+  {
+    id: 6,
+    icon: <FontAwesomeIcon icon={faChartLine} />,
+    description:
+      "You want to maximise your site's performance by using Shopify as a headless ecommerce platform that powers a static site generator such as Next.js.",
+  },
+  {
+    id: 7,
+    icon: <FontAwesomeIcon icon={faBatteryFull} />,
+    description:
+      "You want conversion optimisation or SEO advice to improve your existing Shopify ecommerce website.",
+  },
+];
+
+//solutions
+export const solutions = [
+  {
+    id: 1,
+    icon: <FontAwesomeIcon icon={faThumbsUp} />,
+    description:
+      "Advice from a professional freelance developer with over 20 years in the business.",
+  },
+  {
+    id: 2,
+    icon: <FontAwesomeIcon icon={faThumbsUp} />,
+    description:
+      "A source of straightforward, honest advice that always has you and your business' interests in mind.",
+  },
+  {
+    id: 3,
+    icon: <FontAwesomeIcon icon={faThumbsUp} />,
+    description:
+      "An approach that leans on strong marketing goals, conversion-optimised ecommerce websites and seeing a return on your investment.",
+  },
+  {
+    id: 4,
+    icon: <FontAwesomeIcon icon={faThumbsUp} />,
+    description:
+      "Superb support and guidance from the get go, all the through development, site launch and beyond!",
+  },
+  {
+    id: 5,
+    icon: <FontAwesomeIcon icon={faThumbsUp} />,
+    description:
+      "Marketing and Search Engine Optimisation (SEO) services that have been recognised by national business awards.",
+  },
+  {
+    id: 6,
+    icon: <FontAwesomeIcon icon={faThumbsUp} />,
+    description:
+      "Expert Shopify services and modern development practices including, Next.js, GraphQL and the Jamstack with Shopify as a headless ecommerce platform.",
+  },
+  {
+    id: 7,
+    icon: <FontAwesomeIcon icon={faThumbsUp} />,
+    description:
+      "Help and support launching super fast, accessible, static websites that rank well on search engines",
   },
 ];
