@@ -3,8 +3,8 @@ const Ul = ({ isOpen }) => {
     <>
       <ul
         className={`${
-          isOpen ? " left-0" : "-left-[1024px]"
-        } flex w-full bg-white absolute top-16 right-0 bottom-0 z-50  ease-in duration-500 justify-start items-center gap-4 flex-col py-4 h-[600px] lg:static lg:top-0 lg:h-0 lg:flex-row lg:bg-transparent xl:justify-center xl:gap-8`}
+          isOpen ? " left-0" : "-left-[1524px]"
+        } flex w-full bg-white absolute top-16 right-0 bottom-0 z-50  ease-in duration-500 justify-start items-center gap-4 flex-col py-4 h-[600px] xl:bg-[#FFFFFF00] xl:static xl:top-0 xl:h-0 xl:flex-row xl:bg-transparent xl:justify-center xl:gap-8`}
       >
         <li>
           <a href="#">Home</a>

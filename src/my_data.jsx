@@ -7,10 +7,10 @@ import circle from "./assets/images/circle_bg.png";
 //End Hero Navigation data
 
 // Technologies
-import laravel from "./assets/images/laravel.svg";
-import php from "./assets/images/php.svg";
+import laravel from "./assets/svg/laravel.svg";
+import php from "./assets/svg/php.svg";
 import javascript from "./assets/images/javascript.webp";
-import reactjs from "./assets/images/reactjs.svg";
+import reactjs from "./assets/svg/reactjs.svg";
 import tailwindcss from "./assets/images/tailwindcss.webp";
 import mysqld from "./assets/images/mysql.webp";
 // End Technologies

@@ -18,6 +18,15 @@ export default {
           "2xl": "6rem",
         },
       },
+      keyframes: {
+        upAndDown: {
+          "0%, 100%": { transform: "translateY(0)" },
+          "50%": { transform: "translateY(-5px)" },
+        },
+      },
+      animation: {
+        upAndDown: "upAndDown 3s infinite",
+      },
     },
     colors: {
       black900: "#000000",
