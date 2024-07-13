@@ -6,6 +6,8 @@ import Testimonials from "./components/testimonial.jsx/Testimonials";
 import Portfolios from "./components/portfolios/Portfolios";
 import Blog from "./components/blog/Blog";
 import Contact from "./components/contact/Contact";
+import CallToAction from "./components/callToAction/CallToAction";
+import Footer from "./components/footer/Footer";
 function App() {
   return (
     <main className="font-figtree">
@@ -17,6 +19,8 @@ function App() {
       <Testimonials /> */}
       <Blog />
       <Contact />
+      <CallToAction />
+      <Footer />
     </main>
   );
 }
