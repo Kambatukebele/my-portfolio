@@ -14,7 +14,7 @@ const CardBlog = ({
   link,
 }) => {
   return (
-    <div className="w-full h-full flex flex-col justify-start items-start shadow-md rounded-2xl bg-white cursor-pointer duration-300 ease-in-out hover:shadow-lg hover:shadow-purple900 hover:-mt-5">
+    <div className="w-full h-full flex flex-col justify-start items-start shadow-md rounded-2xl bg-white cursor-pointer duration-300 ease-in-out hover:shadow-lg hover:-mt-5">
       <div className="w-full">
         <Image image={img} imageExtraClass="rounded-t-2xl" />
       </div>
@@ -29,10 +29,7 @@ const CardBlog = ({
             <small className="block capitalize">{published_date}</small>
           </span>
         </div>
-        <H4
-          h4Title={title}
-          h4ExtraClass="text-white font-medium text-black900"
-        />
+        <H4 h4Title={title} h4ExtraClass="font-medium text-black900" />
         <Paragraph paraText={description} width="text-gray50" />
       </div>
     </div>
