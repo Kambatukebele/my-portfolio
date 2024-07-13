@@ -20,6 +20,9 @@ import blog1 from "./assets/images/blog1.png";
 import blog2 from "./assets/images/blog2.png";
 import blog3 from "./assets/images/blog3.png";
 
+//Portfolio Images
+import webizyCode from "./assets/images/webizycodeVision.png";
+
 //Hero Navigation data
 import imageHero from "./assets/images/judens.png";
 import background from "./assets/images/bg.png";
@@ -333,5 +336,109 @@ export const businessType = [
     id: 4,
     title: "Agency",
     selected: false,
+  },
+];
+
+//My recent work
+export const works = [
+  {
+    id: 1,
+    title: "Webizyde agency",
+    description:
+      "Global leaders in environmental and advisory solutions; helping clients achieve their sustainability goals.",
+    img: webizyCode,
+    link: "https://webizycode.com/",
+    tech: ["Laravel, Blade, Tailwindcss, Javascript, MySQL, HTML"],
+    stack: "Fullstack",
+  },
+  {
+    id: 2,
+    title: "Webizyde agency",
+    description:
+      "Global leaders in environmental and advisory solutions; helping clients achieve their sustainability goals.",
+    img: webizyCode,
+    link: "https://webizycode.com/",
+    tech: ["Laravel, Blade, Tailwindcss, Javascript, MySQL, HTML"],
+    stack: "Fullstack",
+  },
+  {
+    id: 3,
+    title: "Webizyde agency",
+    description:
+      "Global leaders in environmental and advisory solutions; helping clients achieve their sustainability goals.",
+    img: webizyCode,
+    link: "https://webizycode.com/",
+    tech: ["Laravel, Blade, Tailwindcss, Javascript, MySQL, HTML"],
+    stack: "Fullstack",
+  },
+  {
+    id: 4,
+    title: "Webizyde agency",
+    description:
+      "Global leaders in environmental and advisory solutions; helping clients achieve their sustainability goals.",
+    img: webizyCode,
+    link: "https://webizycode.com/",
+    tech: ["Laravel, Blade, Tailwindcss, Javascript, MySQL, HTML"],
+    stack: "Fullstack",
+  },
+  {
+    id: 5,
+    title: "Webizyde agency",
+    description:
+      "Global leaders in environmental and advisory solutions; helping clients achieve their sustainability goals.",
+    img: webizyCode,
+    link: "https://webizycode.com/",
+    tech: ["Laravel, Blade, Tailwindcss, Javascript, MySQL, HTML"],
+    stack: "Fullstack",
+  },
+  {
+    id: 6,
+    title: "Webizyde agency",
+    description:
+      "Global leaders in environmental and advisory solutions; helping clients achieve their sustainability goals.",
+    img: webizyCode,
+    link: "https://webizycode.com/",
+    tech: ["Laravel, Blade, Tailwindcss, Javascript, MySQL, HTML"],
+    stack: "Fullstack",
+  },
+  {
+    id: 7,
+    title: "Webizyde agency",
+    description:
+      "Global leaders in environmental and advisory solutions; helping clients achieve their sustainability goals.",
+    img: webizyCode,
+    link: "https://webizycode.com/",
+    tech: ["Laravel, Blade, Tailwindcss, Javascript, MySQL, HTML"],
+    stack: "Fullstack",
+  },
+  {
+    id: 8,
+    title: "Webizyde agency",
+    description:
+      "Global leaders in environmental and advisory solutions; helping clients achieve their sustainability goals.",
+    img: webizyCode,
+    link: "https://webizycode.com/",
+    tech: ["Laravel, Blade, Tailwindcss, Javascript, MySQL, HTML"],
+    stack: "Fullstack",
+  },
+  {
+    id: 9,
+    title: "Webizyde agency",
+    description:
+      "Global leaders in environmental and advisory solutions; helping clients achieve their sustainability goals.",
+    img: webizyCode,
+    link: "https://webizycode.com/",
+    tech: ["Laravel, Blade, Tailwindcss, Javascript, MySQL, HTML"],
+    stack: "Fullstack",
+  },
+  {
+    id: 10,
+    title: "Webizyde agency",
+    description:
+      "Global leaders in environmental and advisory solutions; helping clients achieve their sustainability goals.",
+    img: webizyCode,
+    link: "https://webizycode.com/",
+    tech: ["Laravel, Blade, Tailwindcss, Javascript, MySQL, HTML"],
+    stack: "Fullstack",
   },
 ];

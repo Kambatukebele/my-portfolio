@@ -12,11 +12,11 @@ function App() {
   return (
     <main className="font-figtree">
       <Header />
+      <Portfolios />
       <Services />
       <Problem />
       <Solutions />
-      {/* <Portfolios />
-      <Testimonials /> */}
+      {/* <Testimonials /> */}
       <Blog />
       <Contact />
       <CallToAction />
