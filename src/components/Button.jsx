@@ -3,7 +3,12 @@ import { faArrowRight, faStore } from "@fortawesome/free-solid-svg-icons";
 
 import { useState } from "react";
 
-const Button = ({ buttonText, buttonExtraClass, buttonIconClass }) => {
+const Button = ({
+  buttonText,
+  buttonExtraClass,
+  buttonIconClass,
+  buttonType,
+}) => {
   const [isRotated, setIsRotated] = useState(false);
   const handleMouseOver = () => {
     setIsRotated(true);
@@ -14,6 +19,7 @@ const Button = ({ buttonText, buttonExtraClass, buttonIconClass }) => {
   return (
     <>
       <button
+        type={`${buttonType}`}
         className={`${buttonExtraClass} h-14 flex justify-center items-center gap-3 py-2 px-4 rounded-full mt-0 hover:bg-blue hover:shadow-2xl hover:shadow-blue hover:-mt-2 duration-200 ease-in-out`}
         onMouseEnter={handleMouseOver}
         onMouseLeave={handleMouseLeave}

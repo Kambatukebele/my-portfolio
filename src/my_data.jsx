@@ -15,6 +15,11 @@ import { faFaceFrown } from "@fortawesome/free-solid-svg-icons";
 import { faChartLine } from "@fortawesome/free-solid-svg-icons";
 import { faBatteryFull } from "@fortawesome/free-solid-svg-icons";
 
+//Blog Images
+import blog1 from "./assets/images/blog1.png";
+import blog2 from "./assets/images/blog2.png";
+import blog3 from "./assets/images/blog3.png";
+
 //Hero Navigation data
 import imageHero from "./assets/images/judens.png";
 import background from "./assets/images/bg.png";
@@ -237,5 +242,96 @@ export const solutions = [
     icon: <FontAwesomeIcon icon={faThumbsUp} />,
     description:
       "Help and support launching super fast, accessible, static websites that rank well on search engines",
+  },
+];
+
+//Blog post
+export const blogs = [
+  {
+    id: 1,
+    img: blog1,
+    author: "kamba",
+    published_date: "16 August 2024",
+    title: "10 Essential SEO Tips to Boost Your Website's Ranking",
+    description:
+      "Are you looking to improve your website's visibility and attract more organic traffic?",
+    link: "#",
+  },
+  {
+    id: 2,
+    img: blog2,
+    author: "tuke",
+    published_date: "06 October 2024",
+    title: "The Power of PPC Advertising: How to Maximize Your ROI",
+    description:
+      "Unlock the full potential of your digital marketing strategy with the power of PPC.",
+    link: "#",
+  },
+  {
+    id: 3,
+    img: blog3,
+    author: "charles",
+    published_date: "26 October 2024",
+    title: "The Importance of Responsive Web Design in the Mobile Age",
+    description:
+      "Where mobile devices dominate internet usage, responsive web design more crucial.",
+    link: "#",
+  },
+];
+
+// bugdet
+export const budgets = [
+  {
+    id: 1,
+    description: "Please choose",
+    selected: true,
+  },
+  {
+    id: 2,
+    description: "$500 - $1000",
+    selected: false,
+  },
+  {
+    id: 3,
+    description: "$1000 - $2000",
+    selected: false,
+  },
+  {
+    id: 4,
+    description: "$2000 - $3000",
+    selected: false,
+  },
+  {
+    id: 5,
+    description: "$3000 - $4000",
+    selected: false,
+  },
+  {
+    id: 6,
+    description: "$4000 - $5000",
+    selected: false,
+  },
+];
+// Type of business are you
+export const businessType = [
+  {
+    id: 1,
+    title: "Please choose",
+    selected: true,
+  },
+  {
+    id: 2,
+    title: "Individual",
+    selected: false,
+  },
+  {
+    id: 3,
+    title: "Company",
+    selected: false,
+  },
+  {
+    id: 4,
+    title: "Agency",
+    selected: false,
   },
 ];
