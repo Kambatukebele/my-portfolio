@@ -27,7 +27,7 @@ const DownPortfolio = () => {
   return (
     <>
       <div
-        className="w-full flex justify-start items-center gap-4 overflow-auto whitespace-break-spaces"
+        className="carousel w-full flex justify-between items-center gap-4 overflow-x-auto no-scrollbar"
         ref={carouselRef}
       >
         {works.map((work) => {
