@@ -10,12 +10,12 @@ const Hero = ({ image }) => {
       <div className="flex flex-col justify-center items-start gap-5 mt-8 xl:w-1/2 xl:mt-0">
         <H6 h6Title="Hey! I am KAMBA TUKEBELE" />
         <h1 className="text-4xl font-bold text-start md:text-6xl">
-          Reliable Shopify Developer for Your E-commerce Needs
+          Freelance Shopify Developer for Shopify Store Owners
         </h1>
-        <Paragraph paraText="If you're seeking a remote freelance Shopify developer for seamless Shopify migrations, custom theme development, or comprehensive e-commerce website builds, your search ends here! Let's discuss your project and explore how I can elevate your business with expert Shopify solutions." />
+        <Paragraph paraText="If you're a Shopify store owner seeking a remote freelance Shopify developer for seamless migrations, custom theme development, or comprehensive e-commerce website builds, your search ends here! Let's discuss your project and explore how I can elevate your business with expert Shopify solutions." />
         <div className="flex flex-col justify-center items-start gap-2 sm:flex-row">
           <Button
-            buttonText="View my work"
+            buttonText="Hire me"
             buttonExtraClass="flex w-52 bg-purple900 text-white mb-1 lg:mb-0 lg:mr-2"
             buttonIconClass="bg-white text-blue"
           />

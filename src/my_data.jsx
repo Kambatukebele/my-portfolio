@@ -208,43 +208,42 @@ export const solutions = [
     id: 1,
     icon: <FontAwesomeIcon icon={faThumbsUp} />,
     description:
-      "Advice from a professional freelance developer with over 20 years in the business.",
+      "Insights from an experienced freelance developer with over 5 years in the industry.",
   },
   {
     id: 2,
     icon: <FontAwesomeIcon icon={faThumbsUp} />,
     description:
-      "A source of straightforward, honest advice that always has you and your business' interests in mind.",
+      "A reliable source of candid and business-oriented advice, always prioritizing your interests and those of your business.",
   },
   {
     id: 3,
     icon: <FontAwesomeIcon icon={faThumbsUp} />,
     description:
-      "An approach that leans on strong marketing goals, conversion-optimised ecommerce websites and seeing a return on your investment.",
+      "An approach focused on robust marketing objectives, conversion-optimized ecommerce websites, and delivering a tangible return on your investment.",
   },
   {
     id: 4,
     icon: <FontAwesomeIcon icon={faThumbsUp} />,
     description:
-      "Superb support and guidance from the get go, all the through development, site launch and beyond!",
+      "Exceptional support and guidance from the outset, throughout development, site launch, and beyond!",
   },
   {
     id: 5,
     icon: <FontAwesomeIcon icon={faThumbsUp} />,
-    description:
-      "Marketing and Search Engine Optimisation (SEO) services that have been recognised by national business awards.",
+    description: "Marketing and Search Engine Optimization (SEO) services ",
   },
   {
     id: 6,
     icon: <FontAwesomeIcon icon={faThumbsUp} />,
     description:
-      "Expert Shopify services and modern development practices including, Next.js, GraphQL and the Jamstack with Shopify as a headless ecommerce platform.",
+      "Specializing in expert Shopify services and leveraging modern development practices such as Next.js, GraphQL, and Jamstack with Shopify as a headless ecommerce platform.",
   },
   {
     id: 7,
     icon: <FontAwesomeIcon icon={faThumbsUp} />,
     description:
-      "Help and support launching super fast, accessible, static websites that rank well on search engines",
+      "Assistance and support in launching ultra-fast, accessible, static websites that achieve high rankings on search engines.",
   },
 ];
 
