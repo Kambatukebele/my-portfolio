@@ -1,9 +1,35 @@
+import React, { useState, useRef, useEffect } from "react";
 import { works } from "../../my_data";
 import CardPortfolio from "./CardPortfolio";
 const DownPortfolio = () => {
+  const carouselRef = useRef(null);
+  const [index, setIndex] = useState(0);
+  useEffect(() => {
+    const carousel = carouselRef.current;
+    const slides = carousel.children;
+    const slideWidth = slides[0].offsetWidth;
+
+    const scrollCarousel = () => {
+      setIndex((prevIndex) => (prevIndex + 1) % slides.length);
+    };
+
+    const interval = setInterval(() => {
+      scrollCarousel();
+    }, 3000);
+
+    carousel.scrollTo({
+      left: slideWidth * index,
+      behavior: "smooth",
+    });
+
+    return () => clearInterval(interval);
+  }, [index]);
   return (
     <>
-      <div className="w-full flex overflow-scroll">
+      <div
+        className="w-full flex justify-start items-center gap-4 overflow-auto whitespace-break-spaces"
+        ref={carouselRef}
+      >
         {works.map((work) => {
           return <CardPortfolio key={work.id} {...work} />;
         })}

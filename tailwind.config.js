@@ -28,10 +28,15 @@ export default {
           "0%": { transform: "rotate(0deg)" },
           "100%": { transform: "rotate(360deg)" },
         },
+        slide: {
+          "0%": { transform: "translateX(100%)" },
+          "100%": { transform: "translateX(-100%)" },
+        },
       },
       animation: {
         upAndDown: "upAndDown 3s infinite",
-        slowRotate: "rotate 10s linear infinite",
+        slowRotate: "rotate 100s linear infinite",
+        slide: "slide 10s linear infinite",
       },
     },
     colors: {
