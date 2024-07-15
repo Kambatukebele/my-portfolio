@@ -8,6 +8,7 @@ const Button = ({
   buttonExtraClass,
   buttonIconClass,
   buttonType,
+  buttonLink,
 }) => {
   const [isRotated, setIsRotated] = useState(false);
   const handleMouseOver = () => {
@@ -24,7 +25,10 @@ const Button = ({
         onMouseEnter={handleMouseOver}
         onMouseLeave={handleMouseLeave}
       >
-        <a className="block text-base font-semibold capitalize" href="#">
+        <a
+          className="block text-base font-semibold capitalize"
+          href={`${buttonLink}`}
+        >
           {buttonText}
         </a>{" "}
         <span

@@ -9,6 +9,11 @@ const DownBlog = () => {
           return <CardBlog key={blog.id} {...blog} />;
         })}
       </div>
+      <Button
+        buttonText="View More"
+        buttonExtraClass="bg-purple900 text-white"
+        buttonIconClass="bg-white text-purple900"
+      />
     </>
   );
 };

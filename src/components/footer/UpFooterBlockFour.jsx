@@ -10,7 +10,7 @@ const UpFooterBlockFour = () => {
         <Paragraph paraText="Let's talk about your project and how I can help your business." />
       </div>
       <form className="w-full">
-        <div className="flex flex-col justify-center items-start w-full gap-2 px-4 sm:px-0">
+        <div className="flex flex-col justify-center items-start w-full gap-4 px-4 sm:px-0">
           <FieldInput
             fieldInputName="name"
             fieldInputType="text"

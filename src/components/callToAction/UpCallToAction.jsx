@@ -14,6 +14,7 @@ const UpCallToAction = () => {
         buttonText="Hire me today"
         buttonExtraClass="bg-white hover:bg-purple50"
         buttonIconClass="bg-purple900 text-white"
+        buttonLink="https://calendly.com/kambatukebele/30min"
       />
     </div>
   );

@@ -22,14 +22,14 @@ const UpFooterBlockThree = () => {
           <span className="w-9 h-9 bg-purple900 flex justify-center items-center rounded-full">
             <FontAwesomeIcon icon={faPhone} className="text-white" />
           </span>
-          <span className="w-44 text-gray50">+420 999 888 777</span>
+          <span className="w-44 text-gray50">+420 607 284 825</span>
         </div>
         <div className="flex justify-center items-center gap-3">
           <span className="w-9 h-9 bg-purple900 flex justify-center items-center rounded-full">
             <FontAwesomeIcon icon={faLocation} className="text-white" />
           </span>
           <span className="w-44 text-gray50">
-            8708 Technology Forest Pl Suite 125 -G, The Woodlands, TX 773
+            Remote / Based in Europe, Czech Republic
           </span>
         </div>
       </div>

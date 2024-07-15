@@ -1,3 +1,6 @@
+// React Rooter
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+//End Reacct Rooter
 import Header from "./components/HeroNavigation/Header";
 import Services from "./components/services/Services";
 import Problem from "./components/problem/Problem";
@@ -10,18 +13,27 @@ import CallToAction from "./components/callToAction/CallToAction";
 import Footer from "./components/footer/Footer";
 function App() {
   return (
-    <main className="font-figtree">
-      <Header />
-      <Problem />
-      <Solutions />
-      <Services />
-      <Portfolios />
-      {/* <Testimonials /> */}
-      <Blog />
-      <Contact />
-      <CallToAction />
-      <Footer />
-    </main>
+    <BrowserRouter>
+      <Routes>
+        <Route
+          path="/"
+          element={
+            <main className="font-figtree">
+              <Header />
+              <Problem />
+              <Solutions />
+              <Services />
+              <Portfolios />
+              {/* <Testimonials /> */}
+              <Blog />
+              <Contact />
+              <CallToAction />
+              <Footer />
+            </main>
+          }
+        ></Route>
+      </Routes>
+    </BrowserRouter>
   );
 }
 export default App;

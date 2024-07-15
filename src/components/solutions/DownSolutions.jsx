@@ -14,6 +14,7 @@ const DownSolutions = () => {
           buttonText="Book a Call With me"
           buttonExtraClass="bg-purple900 text-white"
           buttonIconClass="bg-white text-blue"
+          buttonLink="https://calendly.com/kambatukebele/30min"
         />
       </div>
     </>
