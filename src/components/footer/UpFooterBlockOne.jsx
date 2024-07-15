@@ -1,24 +1,43 @@
-// import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-// import {  } from "@fortawesome/free-solid-svg-icons";
+import linkedin from "../../assets/svg/linkedin.svg";
+import github from "../../assets/svg/github.svg";
+import twitter from "../../assets/svg/twitter.svg";
+import instagram from "../../assets/svg/instagram.svg";
 import logo from "../../assets/images/logo.png";
 import Logo from "../Logo";
 import Paragraph from "../Paragraph";
-// faXTwitter,
-// faInstagram,
-// faYoutube,
 const UpFooterBlockOne = () => {
   return (
     <div className="w-full flex justify-center items-start flex-col py-4 gap-4">
       <Logo logo={logo} />
       <Paragraph
-        paraText="By optimizing content, leveraging relevant keywords, and adhering to best practices, businesses can secure prominent position (SEO)"
+        paraText="As Your dedicated freelancer, I will help you maximize your business potential by enhancing your store design, adding new functionalities, and implementing effective strategies to boost your sales and growth."
         width="w-[270px] lg:w-[230px]"
       />
-      <div>
-        {/* <FontAwesomeIcon icon={faLinkedin} /> */}
-        {/* <FontAwesomeIcon icon={faXTwitter} />
-        <FontAwesomeIcon icon={faInstagram} />
-        <FontAwesomeIcon icon={faYoutube} /> */}
+      <div className="w-full flex justify-start items-center gap-2">
+        <a
+          href="https://www.linkedin.com/in/kamba-tukebele/"
+          className="w-10 h-10 bg-purple900 flex justify-center items-center rounded-full"
+        >
+          <img className="" src={linkedin} alt="" />
+        </a>
+        <a
+          href="https://github.com/Kambatukebele"
+          className="w-10 h-10 bg-purple900 flex justify-center items-center rounded-full"
+        >
+          <img className="" src={github} alt="" />
+        </a>
+        <a
+          href="https://x.com/kambatukebele"
+          className="w-10 h-10 bg-purple900 flex justify-center items-center rounded-full"
+        >
+          <img className="" src={twitter} alt="" />
+        </a>
+        <a
+          href="https://instagram.com/kambatukebele"
+          className="w-10 h-10 bg-purple900 flex justify-center items-center rounded-full"
+        >
+          <img className="" src={instagram} alt="" />
+        </a>
       </div>
     </div>
   );

@@ -15,11 +15,11 @@ const ContactInfo = () => {
           h4ExtraClass="lg:text-white lg:font-semibold"
         />
         <Paragraph
-          paraText="We're here to help! If you have any questions or would like to discuss how our SEO and digital marketing services can benefit your business,"
-          width="lg:text-white"
+          paraText="If you're in need of a freelance Shopify developer, want a full Shopify ecommerce website, custom theme development or just need to hear some straightforward advice on how to start your next Shopify project, I'm all ears: let's have a chat!"
+          width="text-white lg:text-white"
         />
       </div>
-      <div className="lg:flex lg:flex-col lg:justify-center lg:items-start lg:gap-4">
+      <div className="lg:w-full lg:flex lg:flex-col lg:justify-center lg:items-start lg:gap-4">
         <div className="lg:flex lg:flex-col lg:justify-center lg:items-start lg:gap-2 lg:py-2">
           <span className="lg:flex lg:justify-center lg:items-center lg:w-9 lg:h-9 lg:bg-purple50 lg:rounded-full">
             <FontAwesomeIcon
@@ -32,7 +32,7 @@ const ContactInfo = () => {
               Our Location
             </span>
             <Paragraph
-              paraText=" 8708 Technology Forest Pl Suite 125 -G, The Woodlands, TX 773"
+              paraText="Remote / Based in Europe, Czech Republic"
               width="lg:text-white"
             />
           </div>
@@ -48,7 +48,7 @@ const ContactInfo = () => {
             <span className="lg:text-white lg:block lg:font-medium lg:text-xl lg:mb-1">
               Call or Whatsapp me
             </span>
-            <Paragraph paraText="+420 000 111 222" width="lg:text-white" />
+            <Paragraph paraText="+420 607 284 825" width="lg:text-white" />
           </div>
         </div>
         <div className="lg:flex lg:flex-col lg:justify-center lg:items-start lg:gap-2 lg:py-2">
