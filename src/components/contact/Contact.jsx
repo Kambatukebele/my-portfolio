@@ -4,7 +4,10 @@ import Image from "../Image";
 import star from "../../assets/images/star.png";
 const Contact = () => {
   return (
-    <section className="w-full h-fit bg-white py-10 lg:py-20 bg-bg-longue bg-no-repeat bg-cover bg-center relative">
+    <section
+      className="w-full h-fit bg-white py-10 lg:py-20 bg-bg-longue bg-no-repeat bg-cover bg-center relative"
+      id="contact"
+    >
       <div className="container mx-auto flex flex-col justify-center items-center gap-12">
         <UpContact />
         <DownContact />

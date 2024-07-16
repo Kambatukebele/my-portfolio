@@ -4,19 +4,23 @@ import H4 from "../H4";
 import Paragraph from "../Paragraph";
 import Image from "../Image";
 import Blog from "./Blog";
-const CardBlog = ({
-  id,
-  author,
-  img,
-  title,
-  description,
-  published_date,
-  link,
-}) => {
+const CardBlog = ({ title, author, excerpt, date, featured_media }) => {
+  const stripTags = (html) => {
+    const div = document.createElement("div");
+    div.innerHTML = html;
+    return div.textContent || div.innerHTML || "";
+  };
+  const formatDate = (dateString) => {
+    const options = { year: "numeric", month: "2-digit", day: "2-digit" };
+    return new Date(dateString).toLocaleDateString(undefined, options);
+  };
   return (
-    <div className="w-full h-full flex flex-col justify-start items-start shadow-md rounded-2xl bg-white cursor-pointer duration-300 ease-in-out hover:shadow-lg hover:-mt-5">
+    <a
+      href=""
+      className="w-full h-full flex flex-col justify-start items-start shadow-md rounded-2xl bg-white cursor-pointer duration-300 ease-in-out hover:shadow-lg hover:-mt-5"
+    >
       <div className="w-full">
-        <Image image={img} imageExtraClass="rounded-t-2xl" />
+        <Image image={featured_media} imageExtraClass="rounded-t-2xl" />
       </div>
       <div className="p-4 flex justify-center items-start flex-col gap-4 h-[260px] md:h-fit">
         <div className="flex justify-center items-center gap-4">
@@ -26,13 +30,13 @@ const CardBlog = ({
           </span>
           <span className="flex justify-center items-center gap-2">
             <FontAwesomeIcon className="text-gray50" icon={faCalendarDays} />
-            <small className="block capitalize">{published_date}</small>
+            <small className="block capitalize">{formatDate(date)}</small>
           </span>
         </div>
-        <H4 h4Title={title} h4ExtraClass="font-medium text-black900" />
-        <Paragraph paraText={description} width="text-gray50" />
+        <H4 h4Title={title.rendered} h4ExtraClass="font-medium text-black900" />
+        <Paragraph paraText={stripTags(excerpt.rendered)} width="text-gray50" />
       </div>
-    </div>
+    </a>
   );
 };
 export default CardBlog;
