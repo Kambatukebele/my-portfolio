@@ -1,302 +1,402 @@
 [
   {
     "id": 1,
+    "slug": "first-post",
     "title": {
-      "rendered": "Sample Blog Post 1"
+      "rendered": "First Post Title"
+    },
+    "date": "2023-01-01T12:00:00",
+    "author": {
+      "name": "Alice Johnson",
+      "image": "https://example.com/author1.jpg",
+      "position": "Content Writer"
+    },
+    "featured_media": "https://example.com/image1.jpg",
+    "content": {
+      "rendered": "<p>This is the content of the first post.</p><img src='https://example.com/content-image1.jpg'/>"
     },
     "excerpt": {
-      "rendered": "<p>This is an excerpt of the first blog post.</p>"
-    },
-    "content": {
-      "rendered": "<p>This is the full content of the first blog post.</p>"
-    },
-    "author": "John Doe",
-    "date": "2023-07-01T12:00:00",
-    "featured_media": "https://via.placeholder.com/150"
+      "rendered": "<p>This is the excerpt of the first post.</p>"
+    }
   },
   {
     "id": 2,
+    "slug": "second-post",
     "title": {
-      "rendered": "Sample Blog Post 2"
+      "rendered": "Second Post Title"
+    },
+    "date": "2023-01-02T12:00:00",
+    "author": {
+      "name": "Bob Smith",
+      "image": "https://example.com/author2.jpg",
+      "position": "Senior Editor"
+    },
+    "featured_media": "https://example.com/image2.jpg",
+    "content": {
+      "rendered": "<p>This is the content of the second post.</p><img src='https://example.com/content-image2.jpg'/>"
     },
     "excerpt": {
-      "rendered": "<p>This is an excerpt of the second blog post.</p>"
-    },
-    "content": {
-      "rendered": "<p>This is the full content of the second blog post.</p>"
-    },
-    "author": "Jane Smith",
-    "date": "2023-07-02T12:00:00",
-    "featured_media": "https://via.placeholder.com/150"
+      "rendered": "<p>This is the excerpt of the second post.</p>"
+    }
   },
   {
     "id": 3,
+    "slug": "third-post",
     "title": {
-      "rendered": "Sample Blog Post 3"
+      "rendered": "Third Post Title"
+    },
+    "date": "2023-01-03T12:00:00",
+    "author": {
+      "name": "Charlie Davis",
+      "image": "https://example.com/author3.jpg",
+      "position": "Guest Contributor"
+    },
+    "featured_media": "https://example.com/image3.jpg",
+    "content": {
+      "rendered": "<p>This is the content of the third post.</p><img src='https://example.com/content-image3.jpg'/>"
     },
     "excerpt": {
-      "rendered": "<p>This is an excerpt of the third blog post.</p>"
-    },
-    "content": {
-      "rendered": "<p>This is the full content of the third blog post.</p>"
-    },
-    "author": "Alice Johnson",
-    "date": "2023-07-03T12:00:00",
-    "featured_media": "https://via.placeholder.com/150"
+      "rendered": "<p>This is the excerpt of the third post.</p>"
+    }
   },
   {
     "id": 4,
+    "slug": "fourth-post",
     "title": {
-      "rendered": "Sample Blog Post 4"
+      "rendered": "Fourth Post Title"
+    },
+    "date": "2023-01-04T12:00:00",
+    "author": {
+      "name": "Diana Evans",
+      "image": "https://example.com/author4.jpg",
+      "position": "Editor-in-Chief"
+    },
+    "featured_media": "https://example.com/image4.jpg",
+    "content": {
+      "rendered": "<p>This is the content of the fourth post.</p><img src='https://example.com/content-image4.jpg'/>"
     },
     "excerpt": {
-      "rendered": "<p>This is an excerpt of the fourth blog post.</p>"
-    },
-    "content": {
-      "rendered": "<p>This is the full content of the fourth blog post.</p>"
-    },
-    "author": "David Brown",
-    "date": "2023-07-04T12:00:00",
-    "featured_media": "https://via.placeholder.com/150"
+      "rendered": "<p>This is the excerpt of the fourth post.</p>"
+    }
   },
   {
     "id": 5,
+    "slug": "fifth-post",
     "title": {
-      "rendered": "Sample Blog Post 5"
+      "rendered": "Fifth Post Title"
+    },
+    "date": "2023-01-05T12:00:00",
+    "author": {
+      "name": "Ethan Fox",
+      "image": "https://example.com/author5.jpg",
+      "position": "Staff Writer"
+    },
+    "featured_media": "https://example.com/image5.jpg",
+    "content": {
+      "rendered": "<p>This is the content of the fifth post.</p><img src='https://example.com/content-image5.jpg'/>"
     },
     "excerpt": {
-      "rendered": "<p>This is an excerpt of the fifth blog post.</p>"
-    },
-    "content": {
-      "rendered": "<p>This is the full content of the fifth blog post.</p>"
-    },
-    "author": "Emma Wilson",
-    "date": "2023-07-05T12:00:00",
-    "featured_media": "https://via.placeholder.com/150"
+      "rendered": "<p>This is the excerpt of the fifth post.</p>"
+    }
   },
   {
     "id": 6,
+    "slug": "sixth-post",
     "title": {
-      "rendered": "Sample Blog Post 6"
+      "rendered": "Sixth Post Title"
+    },
+    "date": "2023-01-06T12:00:00",
+    "author": {
+      "name": "Fiona Green",
+      "image": "https://example.com/author6.jpg",
+      "position": "Freelance Writer"
+    },
+    "featured_media": "https://example.com/image6.jpg",
+    "content": {
+      "rendered": "<p>This is the content of the sixth post.</p><img src='https://example.com/content-image6.jpg'/>"
     },
     "excerpt": {
-      "rendered": "<p>This is an excerpt of the sixth blog post.</p>"
-    },
-    "content": {
-      "rendered": "<p>This is the full content of the sixth blog post.</p>"
-    },
-    "author": "Oliver Jones",
-    "date": "2023-07-06T12:00:00",
-    "featured_media": "https://via.placeholder.com/150"
+      "rendered": "<p>This is the excerpt of the sixth post.</p>"
+    }
   },
   {
     "id": 7,
+    "slug": "seventh-post",
     "title": {
-      "rendered": "Sample Blog Post 7"
+      "rendered": "Seventh Post Title"
+    },
+    "date": "2023-01-07T12:00:00",
+    "author": {
+      "name": "George Harris",
+      "image": "https://example.com/author7.jpg",
+      "position": "Junior Editor"
+    },
+    "featured_media": "https://example.com/image7.jpg",
+    "content": {
+      "rendered": "<p>This is the content of the seventh post.</p><img src='https://example.com/content-image7.jpg'/>"
     },
     "excerpt": {
-      "rendered": "<p>This is an excerpt of the seventh blog post.</p>"
-    },
-    "content": {
-      "rendered": "<p>This is the full content of the seventh blog post.</p>"
-    },
-    "author": "Sophia Garcia",
-    "date": "2023-07-07T12:00:00",
-    "featured_media": "https://via.placeholder.com/150"
+      "rendered": "<p>This is the excerpt of the seventh post.</p>"
+    }
   },
   {
     "id": 8,
+    "slug": "eighth-post",
     "title": {
-      "rendered": "Sample Blog Post 8"
+      "rendered": "Eighth Post Title"
+    },
+    "date": "2023-01-08T12:00:00",
+    "author": {
+      "name": "Hannah Johnson",
+      "image": "https://example.com/author8.jpg",
+      "position": "Content Strategist"
+    },
+    "featured_media": "https://example.com/image8.jpg",
+    "content": {
+      "rendered": "<p>This is the content of the eighth post.</p><img src='https://example.com/content-image8.jpg'/>"
     },
     "excerpt": {
-      "rendered": "<p>This is an excerpt of the eighth blog post.</p>"
-    },
-    "content": {
-      "rendered": "<p>This is the full content of the eighth blog post.</p>"
-    },
-    "author": "Liam Martinez",
-    "date": "2023-07-08T12:00:00",
-    "featured_media": "https://via.placeholder.com/150"
+      "rendered": "<p>This is the excerpt of the eighth post.</p>"
+    }
   },
   {
     "id": 9,
+    "slug": "ninth-post",
     "title": {
-      "rendered": "Sample Blog Post 9"
+      "rendered": "Ninth Post Title"
+    },
+    "date": "2023-01-09T12:00:00",
+    "author": {
+      "name": "Ian King",
+      "image": "https://example.com/author9.jpg",
+      "position": "Technical Writer"
+    },
+    "featured_media": "https://example.com/image9.jpg",
+    "content": {
+      "rendered": "<p>This is the content of the ninth post.</p><img src='https://example.com/content-image9.jpg'/>"
     },
     "excerpt": {
-      "rendered": "<p>This is an excerpt of the ninth blog post.</p>"
-    },
-    "content": {
-      "rendered": "<p>This is the full content of the ninth blog post.</p>"
-    },
-    "author": "Isabella Rodriguez",
-    "date": "2023-07-09T12:00:00",
-    "featured_media": "https://via.placeholder.com/150"
+      "rendered": "<p>This is the excerpt of the ninth post.</p>"
+    }
   },
   {
     "id": 10,
+    "slug": "tenth-post",
     "title": {
-      "rendered": "Sample Blog Post 10"
+      "rendered": "Tenth Post Title"
+    },
+    "date": "2023-01-10T12:00:00",
+    "author": {
+      "name": "Jack Lee",
+      "image": "https://example.com/author10.jpg",
+      "position": "Managing Editor"
+    },
+    "featured_media": "https://example.com/image10.jpg",
+    "content": {
+      "rendered": "<p>This is the content of the tenth post.</p><img src='https://example.com/content-image10.jpg'/>"
     },
     "excerpt": {
-      "rendered": "<p>This is an excerpt of the tenth blog post.</p>"
-    },
-    "content": {
-      "rendered": "<p>This is the full content of the tenth blog post.</p>"
-    },
-    "author": "William Lee",
-    "date": "2023-07-10T12:00:00",
-    "featured_media": "https://via.placeholder.com/150"
+      "rendered": "<p>This is the excerpt of the tenth post.</p>"
+    }
   },
   {
     "id": 11,
+    "slug": "eleventh-post",
     "title": {
-      "rendered": "Sample Blog Post 11"
+      "rendered": "Eleventh Post Title"
+    },
+    "date": "2023-01-11T12:00:00",
+    "author": {
+      "name": "Katherine Lewis",
+      "image": "https://example.com/author11.jpg",
+      "position": "Senior Writer"
+    },
+    "featured_media": "https://example.com/image11.jpg",
+    "content": {
+      "rendered": "<p>This is the content of the eleventh post.</p><img src='https://example.com/content-image11.jpg'/>"
     },
     "excerpt": {
-      "rendered": "<p>This is an excerpt of the eleventh blog post.</p>"
-    },
-    "content": {
-      "rendered": "<p>This is the full content of the eleventh blog post.</p>"
-    },
-    "author": "Mia Walker",
-    "date": "2023-07-11T12:00:00",
-    "featured_media": "https://via.placeholder.com/150"
+      "rendered": "<p>This is the excerpt of the eleventh post.</p>"
+    }
   },
   {
     "id": 12,
+    "slug": "twelfth-post",
     "title": {
-      "rendered": "Sample Blog Post 12"
+      "rendered": "Twelfth Post Title"
+    },
+    "date": "2023-01-12T12:00:00",
+    "author": {
+      "name": "Liam Martinez",
+      "image": "https://example.com/author12.jpg",
+      "position": "Staff Editor"
+    },
+    "featured_media": "https://example.com/image12.jpg",
+    "content": {
+      "rendered": "<p>This is the content of the twelfth post.</p><img src='https://example.com/content-image12.jpg'/>"
     },
     "excerpt": {
-      "rendered": "<p>This is an excerpt of the twelfth blog post.</p>"
-    },
-    "content": {
-      "rendered": "<p>This is the full content of the twelfth blog post.</p>"
-    },
-    "author": "James Harris",
-    "date": "2023-07-12T12:00:00",
-    "featured_media": "https://via.placeholder.com/150"
+      "rendered": "<p>This is the excerpt of the twelfth post.</p>"
+    }
   },
   {
     "id": 13,
+    "slug": "thirteenth-post",
     "title": {
-      "rendered": "Sample Blog Post 13"
+      "rendered": "Thirteenth Post Title"
+    },
+    "date": "2023-01-13T12:00:00",
+    "author": {
+      "name": "Mia Nelson",
+      "image": "https://example.com/author13.jpg",
+      "position": "Contributing Writer"
+    },
+    "featured_media": "https://example.com/image13.jpg",
+    "content": {
+      "rendered": "<p>This is the content of the thirteenth post.</p><img src='https://example.com/content-image13.jpg'/>"
     },
     "excerpt": {
-      "rendered": "<p>This is an excerpt of the thirteenth blog post.</p>"
-    },
-    "content": {
-      "rendered": "<p>This is the full content of the thirteenth blog post.</p>"
-    },
-    "author": "Charlotte Clark",
-    "date": "2023-07-13T12:00:00",
-    "featured_media": "https://via.placeholder.com/150"
+      "rendered": "<p>This is the excerpt of the thirteenth post.</p>"
+    }
   },
   {
     "id": 14,
+    "slug": "fourteenth-post",
     "title": {
-      "rendered": "Sample Blog Post 14"
+      "rendered": "Fourteenth Post Title"
+    },
+    "date": "2023-01-14T12:00:00",
+    "author": {
+      "name": "Noah Owens",
+      "image": "https://example.com/author14.jpg",
+      "position": "Assistant Editor"
+    },
+    "featured_media": "https://example.com/image14.jpg",
+    "content": {
+      "rendered": "<p>This is the content of the fourteenth post.</p><img src='https://example.com/content-image14.jpg'/>"
     },
     "excerpt": {
-      "rendered": "<p>This is an excerpt of the fourteenth blog post.</p>"
-    },
-    "content": {
-      "rendered": "<p>This is the full content of the fourteenth blog post.</p>"
-    },
-    "author": "Benjamin Lewis",
-    "date": "2023-07-14T12:00:00",
-    "featured_media": "https://via.placeholder.com/150"
+      "rendered": "<p>This is the excerpt of the fourteenth post.</p>"
+    }
   },
   {
     "id": 15,
+    "slug": "fifteenth-post",
     "title": {
-      "rendered": "Sample Blog Post 15"
+      "rendered": "Fifteenth Post Title"
+    },
+    "date": "2023-01-15T12:00:00",
+    "author": {
+      "name": "Olivia Perez",
+      "image": "https://example.com/author15.jpg",
+      "position": "Columnist"
+    },
+    "featured_media": "https://example.com/image15.jpg",
+    "content": {
+      "rendered": "<p>This is the content of the fifteenth post.</p><img src='https://example.com/content-image15.jpg'/>"
     },
     "excerpt": {
-      "rendered": "<p>This is an excerpt of the fifteenth blog post.</p>"
-    },
-    "content": {
-      "rendered": "<p>This is the full content of the fifteenth blog post.</p>"
-    },
-    "author": "Amelia Hall",
-    "date": "2023-07-15T12:00:00",
-    "featured_media": "https://via.placeholder.com/150"
+      "rendered": "<p>This is the excerpt of the fifteenth post.</p>"
+    }
   },
   {
     "id": 16,
+    "slug": "sixteenth-post",
     "title": {
-      "rendered": "Sample Blog Post 16"
+      "rendered": "Sixteenth Post Title"
+    },
+    "date": "2023-01-16T12:00:00",
+    "author": {
+      "name": "Paul Robinson",
+      "image": "https://example.com/author16.jpg",
+      "position": "Content Writer"
+    },
+    "featured_media": "https://example.com/image16.jpg",
+    "content": {
+      "rendered": "<p>This is the content of the sixteenth post.</p><img src='https://example.com/content-image16.jpg'/>"
     },
     "excerpt": {
-      "rendered": "<p>This is an excerpt of the sixteenth blog post.</p>"
-    },
-    "content": {
-      "rendered": "<p>This is the full content of the sixteenth blog post.</p>"
-    },
-    "author": "Lucas King",
-    "date": "2023-07-16T12:00:00",
-    "featured_media": "https://via.placeholder.com/150"
+      "rendered": "<p>This is the excerpt of the sixteenth post.</p>"
+    }
   },
   {
     "id": 17,
+    "slug": "seventeenth-post",
     "title": {
-      "rendered": "Sample Blog Post 17"
+      "rendered": "Seventeenth Post Title"
+    },
+    "date": "2023-01-17T12:00:00",
+    "author": {
+      "name": "Quinn Stewart",
+      "image": "https://example.com/author17.jpg",
+      "position": "Senior Editor"
+    },
+    "featured_media": "https://example.com/image17.jpg",
+    "content": {
+      "rendered": "<p>This is the content of the seventeenth post.</p><img src='https://example.com/content-image17.jpg'/>"
     },
     "excerpt": {
-      "rendered": "<p>This is an excerpt of the seventeenth blog post.</p>"
-    },
-    "content": {
-      "rendered": "<p>This is the full content of the seventeenth blog post.</p>"
-    },
-    "author": "Harper Scott",
-    "date": "2023-07-17T12:00:00",
-    "featured_media": "https://via.placeholder.com/150"
+      "rendered": "<p>This is the excerpt of the seventeenth post.</p>"
+    }
   },
   {
     "id": 18,
+    "slug": "eighteenth-post",
     "title": {
-      "rendered": "Sample Blog Post 18"
+      "rendered": "Eighteenth Post Title"
+    },
+    "date": "2023-01-18T12:00:00",
+    "author": {
+      "name": "Rachel Turner",
+      "image": "https://example.com/author18.jpg",
+      "position": "Guest Contributor"
+    },
+    "featured_media": "https://example.com/image18.jpg",
+    "content": {
+      "rendered": "<p>This is the content of the eighteenth post.</p><img src='https://example.com/content-image18.jpg'/>"
     },
     "excerpt": {
-      "rendered": "<p>This is an excerpt of the eighteenth blog post.</p>"
-    },
-    "content": {
-      "rendered": "<p>This is the full content of the eighteenth blog post.</p>"
-    },
-    "author": "Henry Young",
-    "date": "2023-07-18T12:00:00",
-    "featured_media": "https://via.placeholder.com/150"
+      "rendered": "<p>This is the excerpt of the eighteenth post.</p>"
+    }
   },
   {
     "id": 19,
+    "slug": "nineteenth-post",
     "title": {
-      "rendered": "Sample Blog Post 19"
+      "rendered": "Nineteenth Post Title"
+    },
+    "date": "2023-01-19T12:00:00",
+    "author": {
+      "name": "Samuel White",
+      "image": "https://example.com/author19.jpg",
+      "position": "Freelance Writer"
+    },
+    "featured_media": "https://example.com/image19.jpg",
+    "content": {
+      "rendered": "<p>This is the content of the nineteenth post.</p><img src='https://example.com/content-image19.jpg'/>"
     },
     "excerpt": {
-      "rendered": "<p>This is an excerpt of the nineteenth blog post.</p>"
-    },
-    "content": {
-      "rendered": "<p>This is the full content of the nineteenth blog post.</p>"
-    },
-    "author": "Evelyn Hernandez",
-    "date": "2023-07-19T12:00:00",
-    "featured_media": "https://via.placeholder.com/150"
+      "rendered": "<p>This is the excerpt of the nineteenth post.</p>"
+    }
   },
   {
     "id": 20,
+    "slug": "twentieth-post",
     "title": {
-      "rendered": "Sample Blog Post 20"
+      "rendered": "Twentieth Post Title"
+    },
+    "date": "2023-01-20T12:00:00",
+    "author": {
+      "name": "Tina Young",
+      "image": "https://example.com/author20.jpg",
+      "position": "Content Writer"
+    },
+    "featured_media": "https://example.com/image20.jpg",
+    "content": {
+      "rendered": "<p>This is the content of the twentieth post.</p><img src='https://example.com/content-image20.jpg'/>"
     },
     "excerpt": {
-      "rendered": "<p>This is an excerpt of the twentieth blog post.</p>"
-    },
-    "content": {
-      "rendered": "<p>This is the full content of the twentieth blog post.</p>"
-    },
-    "author": "Michael Lopez",
-    "date": "2023-07-20T12:00:00",
-    "featured_media": "https://via.placeholder.com/150"
+      "rendered": "<p>This is the excerpt of the twentieth post.</p>"
+    }
   }
 ]

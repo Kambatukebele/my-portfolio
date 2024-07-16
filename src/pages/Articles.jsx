@@ -1,26 +1,49 @@
+import React, { useState, useEffect } from "react";
 import Button from "../components/Button";
 import Paragraph from "../components/Paragraph";
-import { useState, useEffect } from "react";
-import mockPosts from "../mockPosts.json";
+import { fetchPosts } from "../services/WordpressService";
 import CardBlog from "../components/blog/CardBlog";
 import { Link } from "react-router-dom";
+
 const Articles = () => {
+  const [allPosts, setAllPosts] = useState([]);
   const [posts, setPosts] = useState([]);
+  const [loading, setLoading] = useState(true);
   const [currentPage, setCurrentPage] = useState(1);
   const postsPerPage = 12;
-  useEffect(() => {
-    // Calculate the posts for the current page and reverse the order
-    const reversedPosts = mockPosts.slice().reverse();
-    const indexOfLastPost = currentPage * postsPerPage;
-    const indexOfFirstPost = indexOfLastPost - postsPerPage;
-    setPosts(reversedPosts.slice(indexOfFirstPost, indexOfLastPost));
-  }, [currentPage]);
-  const paginate = (pageNumber) => setCurrentPage(pageNumber);
 
-  const totalPages = Math.ceil(mockPosts.length / postsPerPage);
+  useEffect(() => {
+    const getPosts = async () => {
+      try {
+        const data = await fetchPosts();
+        const reversedPosts = data.slice().reverse();
+        setAllPosts(reversedPosts);
+        setLoading(false);
+      } catch (error) {
+        console.error("Error fetching posts:", error);
+        setLoading(false);
+      }
+    };
+    getPosts();
+  }, []);
+
+  useEffect(() => {
+    if (allPosts.length > 0) {
+      const indexOfLastPost = currentPage * postsPerPage;
+      const indexOfFirstPost = indexOfLastPost - postsPerPage;
+      setPosts(allPosts.slice(indexOfFirstPost, indexOfLastPost));
+    }
+  }, [allPosts, currentPage]);
+
+  const paginate = (pageNumber) => setCurrentPage(pageNumber);
+  const totalPages = Math.ceil(allPosts.length / postsPerPage);
+
+  if (loading) {
+    return <div>Loading...</div>;
+  }
   return (
-    <article className="w-full h-full lg:py-20 bg-bg-longue bg-no-repeat bg-cover bg-center relative">
-      <div className="container mx-auto">
+    <article className="w-full h-fit lg:pb-10 bg-bg-longue bg-no-repeat bg-cover bg-center relative">
+      <div className="container mx-auto flex flex-col justify-center items-center gap-4">
         <div className="h-[300px] w-full flex-col gap-4 flex justify-center items-center">
           <h1 className="text-4xl font-bold text-start md:text-6xl">
             My Articles
@@ -29,20 +52,22 @@ const Articles = () => {
             paraText="If you're a Shopify store owner seeking a remote freelance Shopify developer for seamless migrations, custom theme development, or comprehensive e-commerce website"
             width="text-center"
           />
-          <Button
-            buttonText="Go Back Home"
-            buttonType="button"
-            buttonExtraClass="bg-blue text-white"
-            buttonIconClass="bg-white text-purple900"
-          />
+          <Link to="/">
+            <Button
+              buttonText="Go Back Home"
+              buttonType="button"
+              buttonExtraClass="bg-blue text-white"
+              buttonIconClass="bg-white text-purple900"
+            />
+          </Link>
         </div>
-        <div className="grid gap-4 grid-cols-1 grid-rows-1 sm:grid-cols-2 sm:grid-rows-2 lg:grid-cols-3 lg:grid-rows-1 lg:gap-10">
+        <div className="grid gap-4 grid-cols-1 grid-rows-1 sm:grid-cols-2 sm:grid-rows-2 lg:grid-cols-3 lg:grid-rows-1 lg:gap-10 my-5">
           {posts.map((post) => {
             return <CardBlog key={post.id} {...post} />;
           })}
         </div>
         {/* Pagination */}
-        <div className="mt-10 flex items-center justify-between shadow-sm border-gray-200 bg-bg-longue px-4 py-3 sm:px-6">
+        <div className="mt-10 w-full flex items-center justify-between shadow-sm border-gray-200 bg-bg-longue px-4 py-3 sm:px-6">
           <div className="flex flex-1 justify-between sm:hidden">
             <button
               onClick={() => paginate(currentPage - 1)}
@@ -70,10 +95,10 @@ const Articles = () => {
                 to
                 <span className="font-medium">
                   {" "}
-                  {Math.min(currentPage * postsPerPage, mockPosts.length)}{" "}
+                  {Math.min(currentPage * postsPerPage, allPosts.length)}{" "}
                 </span>
                 of
-                <span className="font-medium"> {mockPosts.length} </span>
+                <span className="font-medium"> {allPosts.length} </span>
                 results
               </p>
             </div>
@@ -144,4 +169,5 @@ const Articles = () => {
     </article>
   );
 };
+
 export default Articles;
