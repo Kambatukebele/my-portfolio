@@ -50,7 +50,7 @@ const Articles = () => {
           </h1>
           <Paragraph
             paraText="If you're a Shopify store owner seeking a remote freelance Shopify developer for seamless migrations, custom theme development, or comprehensive e-commerce website"
-            width="text-center"
+            width="text-center sm:w-[400px] md:w-[550px]"
           />
           <Link to="/">
             <Button

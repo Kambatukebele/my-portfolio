@@ -63,9 +63,61 @@ export const fetchPosts = async () => {
   }
 };
 
+// export const fetchSinglePost = async (slug) => {
+//   try {
+//     const response = await fetch(`${API_URL}?slug=${slug}`);
+//     if (!response.ok) {
+//       throw new Error("Network response was not ok");
+//     }
+//     const data = await response.json();
+//     if (data.length === 0) {
+//       throw new Error("Post not found");
+//     }
+//     return data[0]; // Assuming we only want the first post with this slug
+//   } catch (error) {
+//     console.error("Error fetching post:", error);
+//     throw error;
+//   }
+// };
+
+// export const fetchSinglePost = async (id) => {
+//   try {
+//     const response = await fetch(`${API_URL}/${id}?_embed`);
+//     if (!response.ok) {
+//       throw new Error("Network response was not ok");
+//     }
+//     const data = await response.json();
+//     const author = data._embedded?.author
+//       ? {
+//           name: data._embedded.author[0].name,
+//           image: data._embedded.author[0].avatar_urls?.["96"],
+//           position: data._embedded.author[0].description,
+//         }
+//       : null;
+
+//     const featured_media = data._embedded?.["wp:featuredmedia"]
+//       ? {
+//           source_url: data._embedded["wp:featuredmedia"][0].source_url,
+//         }
+//       : null;
+
+//     return {
+//       id: data.id,
+//       title: data.title.rendered,
+//       content: data.content.rendered,
+//       date: data.date,
+//       author: author,
+//       featured_media: featured_media,
+//     };
+//   } catch (error) {
+//     console.error("Error fetching post:", error);
+//     throw error;
+//   }
+// };
+
 export const fetchSinglePost = async (id) => {
   try {
-    const response = await fetch(`${API_URL}/${id}`);
+    const response = await fetch(`${API_URL}/${id}?_embed`);
     if (!response.ok) {
       throw new Error("Network response was not ok");
     }
