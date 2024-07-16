@@ -15,14 +15,16 @@ const Hero = ({ image }) => {
         <Paragraph paraText="If you're a Shopify store owner seeking a remote freelance Shopify developer for seamless migrations, custom theme development, or comprehensive e-commerce website builds, your search ends here! Let's discuss your project and explore how I can elevate your business with expert Shopify solutions." />
         <div className="flex flex-col justify-center items-start gap-2 sm:flex-row">
           <Button
-            buttonText="Hire me"
+            buttonText="Free Consultation"
             buttonExtraClass="flex w-52 bg-purple900 text-white mb-1 lg:mb-0 lg:mr-2"
             buttonIconClass="bg-white text-blue"
+            buttonLink="https://calendly.com/kambatukebele/30min"
           />
           <Button
             buttonText="View my videos"
             buttonExtraClass="flex w-52 bg-transparent border border-blue text-blue hover:text-white"
             buttonIconClass="bg-blue text-white hover:bg-white"
+            buttonLink="https://www.youtube.com/channel/UCIT6MIpRklmSfkJ88DEGhPQ"
           />
         </div>
       </div>

@@ -16,6 +16,8 @@ function App() {
             path="articles/:slugId/:articleId"
             element={<SingleArticle />}
           />
+          <Route path="privacy" element={<PrivacyPolicy />} />
+          <Route path="terms" element={<Terms />} />
           <Route path="*" element={<ErrorComponent />} />
         </Routes>
       </BrowserRouter>
