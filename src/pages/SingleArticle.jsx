@@ -2,6 +2,8 @@ import { Link, useParams } from "react-router-dom";
 import { useState, useEffect } from "react";
 import { fetchSinglePost } from "../services/WordpressService";
 import Paragraph from "../components/Paragraph";
+import "../index.css";
+import Button from "../components/Button";
 const SingleArticle = () => {
   const { articleId } = useParams();
   const [post, setPost] = useState(null);
@@ -39,13 +41,13 @@ const SingleArticle = () => {
   const imageUrl = featuredImage && featuredImage[0].source_url;
 
   return (
-    <section className="w-full h-fit bg-bg-longue bg-cover bg-center bg-no-repeat p-3">
-      <main className="container mx-auto rounded-2xl pt-8 pb-16 lg:pt-16 lg:pb-24 bg-purple50 dark:bg-gray-900 antialiased">
-        <div className="flex justify-between px-4 mx-auto max-w-screen-xl">
+    <section className="w-full h-fit bg-bg-longue bg-cover bg-center bg-no-repeat p-3 relative">
+      <main className="container mx-auto rounded-2xl pt-8 pb-16 lg:pt-16 lg:pb-24 bg-gray-50 dark:bg-gray-900 antialiased">
+        <div className="flex justify-between px-4 mx-auto max-w-[300px] sm:max-w-[600px] lg:max-w-[900px]">
           <article className="mx-auto w-full max-w-2xl format format-sm sm:format-base lg:format-lg format-blue dark:format-invert">
             <header className="mb-4 lg:mb-6 not-format">
               <address className="flex items-center mb-6 not-italic">
-                <div className="inline-flex items-center mr-3 text-sm text-gray-900 dark:text-white">
+                <div className="flex flex-col justify-center items-start gap-4">
                   {post.author && (
                     <>
                       <img
@@ -62,10 +64,10 @@ const SingleArticle = () => {
                           <strong>Author:</strong>{" "}
                           {post._embedded.author[0].name}
                         </span>
-                        <p className="text-base text-gray-500 dark:text-gray-400">
+                        <p className="text-sm text-gray-500 dark:text-gray-400">
                           {post._embedded.author[0].description}
                         </p>
-                        <p className="text-base text-gray-500 dark:text-gray-400">
+                        <p className="text-sm text-gray-500 dark:text-gray-400">
                           <time
                             pubdate
                             datetime="2022-02-08"

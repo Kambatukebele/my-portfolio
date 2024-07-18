@@ -5,6 +5,7 @@ import Home from "./pages/Home";
 import Articles from "./pages/Articles";
 import SingleArticle from "./pages/SingleArticle";
 import ErrorComponent from "./pages/ErrorComponent";
+import Privacy from "./pages/Privacy";
 function App() {
   return (
     <main className="font-figtree">
@@ -16,8 +17,8 @@ function App() {
             path="articles/:slugId/:articleId"
             element={<SingleArticle />}
           />
-          <Route path="privacy" element={<PrivacyPolicy />} />
-          <Route path="terms" element={<Terms />} />
+          <Route path="privacy" element={<Privacy />} />
+          {/* <Route path="terms" element={<Terms />} /> */}
           <Route path="*" element={<ErrorComponent />} />
         </Routes>
       </BrowserRouter>

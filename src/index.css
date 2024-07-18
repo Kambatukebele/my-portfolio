@@ -1,6 +1,35 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* Include custom styles here */
+@layer components {
+  .content h1,
+  .content h2,
+  .content h3,
+  .content h4,
+  .content h5,
+  .content h6 {
+    @apply my-6 font-bold;
+  }
+  .content p {
+    @apply my-4;
+  }
+  .content ul,
+  .content ol {
+    @apply ml-6 my-4;
+  }
+  .content li {
+    @apply my-2;
+  }
+  .content img {
+    @apply w-full h-auto my-4;
+  }
+  .content blockquote {
+    @apply my-6 p-4 bg-gray-100 border-l-4 border-gray-500 italic max-w-96;
+  }
+}
+
 .carousel {
   scroll-behavior: smooth;
 }

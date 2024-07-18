@@ -1,4 +1,7 @@
-const PrivacyPolicy = () => {
+import { Link } from "react-router-dom";
+import Paragraph from "../components/Paragraph";
+import Button from "../components/Button";
+const Privacy = () => {
   return (
     <section className="w-full h-fit lg:pb-10 bg-bg-longue bg-no-repeat bg-cover bg-center relative">
       <div className="container mx-auto flex flex-col justify-center items-center gap-4">
@@ -19,8 +22,17 @@ const PrivacyPolicy = () => {
             />
           </Link>
         </div>
+        <div>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque nobis
+            eligendi libero molestiae sunt corrupti dolorem aut temporibus!
+            Accusantium autem atque ut optio obcaecati odio voluptates eius non,
+            unde ea tempora vero quidem dolor blanditiis consequatur expedita
+            tempore libero eveniet!
+          </p>
+        </div>
       </div>
     </section>
   );
 };
-export default PrivacyPolicy;
+export default Privacy;
