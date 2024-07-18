@@ -4,9 +4,9 @@ const ContactFormNameEmail = () => {
   return (
     <div className="w-full flex flex-col justify-center items-center gap-4 sm:flex-row">
       <div className="w-full flex flex-col justify-center items-start gap-1">
-        <Label labelTitle="First name" />
+        <Label labelTitle="Name" />
         <FieldInput
-          fieldInputName="name"
+          fieldInputName="user_name"
           fieldInputPlaceholder="First name"
           fieldInputType="text"
         />
@@ -14,7 +14,7 @@ const ContactFormNameEmail = () => {
       <div className="w-full flex flex-col justify-center items-start gap-1">
         <Label labelTitle="Email" />
         <FieldInput
-          fieldInputName="email"
+          fieldInputName="user_email"
           fieldInputPlaceholder="Email"
           fieldInputType="email"
         />

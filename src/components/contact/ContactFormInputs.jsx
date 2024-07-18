@@ -1,4 +1,3 @@
-import Button from "../Button";
 import Label from "../Label";
 import ContactFormBusinessBuget from "./ContactFormBusinessBuget";
 import ContactFormNameEmail from "./ContactFormNameEmail";
@@ -16,13 +15,13 @@ const ContactFormInputs = () => {
           <textarea name="message" className="w-full" rows="7"></textarea>
         </div>
       </div>
-      <div>
-        <Button
-          buttonText="Send"
-          buttonType="submit"
-          buttonExtraClass="bg-purple900 text-white"
-          buttonIconClass="text-white"
-        />
+      <div className="">
+        <button
+          type="submit"
+          className="bg-purple900 text-white h-14 w-36 flex justify-center items-center gap-3 py-2 px-4 rounded-full mt-0 hover:bg-blue hover:shadow-2xl hover:shadow-blue hover:-mt-2 duration-200 ease-in-out"
+        >
+          Send
+        </button>
       </div>
     </div>
   );

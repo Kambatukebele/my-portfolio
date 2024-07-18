@@ -23,13 +23,9 @@ const Privacy = () => {
           </Link>
         </div>
         <div>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque nobis
-            eligendi libero molestiae sunt corrupti dolorem aut temporibus!
-            Accusantium autem atque ut optio obcaecati odio voluptates eius non,
-            unde ea tempora vero quidem dolor blanditiis consequatur expedita
-            tempore libero eveniet!
-          </p>
+          <Paragraph paraText="These terms and conditions outline the rules and regulations for the use of the Rob Kendal website, located at robkendal.co.uk." />
+          <Paragraph paraText="By accessing this website we assume you accept these terms and conditions. Do not continue to use Rob Kendal if you do not agree to take all of the terms and conditions stated on this page." />
+          <Paragraph paraText="{``}" />
         </div>
       </div>
     </section>
