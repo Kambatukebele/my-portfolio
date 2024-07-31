@@ -10,16 +10,16 @@ const UpFooterBlockTwo = () => {
           <a href="#">Home</a>
         </li>
         <li className="text-gray50 text-base">
-          <a href="#">Home</a>
+          <a href="#work">Work</a>
         </li>
         <li className="text-gray50 text-base">
-          <a href="#">Home</a>
+          <a href="#services">Services</a>
         </li>
         <li className="text-gray50 text-base">
-          <a href="#">Home</a>
+          <a href="#articles">Articles</a>
         </li>
         <li className="text-gray50 text-base">
-          <a href="#">Home</a>
+          <a href="#contact">Contact</a>
         </li>
       </ul>
     </div>
