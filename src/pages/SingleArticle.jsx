@@ -59,7 +59,7 @@ const SingleArticle = () => {
                         <span
                           href="#"
                           rel="author"
-                          className="text-xl font-bold text-gray-900 capitalize dark:text-white"
+                          className="text-xl font-bold text-gray-900 capitalize"
                         >
                           <strong>Author:</strong>{" "}
                           {post._embedded.author[0].name}
@@ -82,7 +82,7 @@ const SingleArticle = () => {
                   )}
                 </div>
               </address>
-              <h1 className="mb-4 text-3xl font-extrabold leading-tight text-gray-900 lg:mb-6 lg:text-4xl dark:text-white">
+              <h1 className="mb-4 text-3xl font-extrabold leading-tight text-gray-900 lg:mb-6 lg:text-4xl">
                 {post.title.rendered}
               </h1>
             </header>
