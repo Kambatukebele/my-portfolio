@@ -9,8 +9,9 @@ const CardPortfolio = ({ img, title, description, link, stack, tech }) => {
       <div className="w-[300px] h-[200px] sm:w-[560px] sm:h-[400px]">
         <Image image={img} imageExtraClass="" />
       </div>
-      <div className="w-[300px] h-[150px] py-2 px-4 sm:w-[560px]">
+      <div className="w-[300px] h-[150px] py-2 px-4 sm:w-[560px] flex flex-col justify-center items-start gap-2">
         <H4 h4Title={title} h4ExtraClass="font-medium text-black900 mb-2" />
+        <h6>Live: <a className="text-red-900 underline" href={link}>Click here</a></h6>
         <Paragraph paraText={description} width="text-gray50 w-full" />
       </div>
     </div>

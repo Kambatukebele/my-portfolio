@@ -22,6 +22,7 @@ import blog3 from "./assets/images/blog3.png";
 
 //Portfolio Images
 import webizyCode from "./assets/images/webizycodeVision.png";
+import benzagroupe from "./assets/images/benzagroupe.png";
 
 //Hero Navigation data
 import imageHero from "./assets/images/judens.png";
@@ -342,9 +343,9 @@ export const businessType = [
 export const works = [
   {
     id: 1,
-    title: "Webizyde agency",
+    title: "Webizycode agency",
     description:
-      "Global leaders in environmental and advisory solutions; helping clients achieve their sustainability goals.",
+      "Digital Marketing Agency build with the Laravel in the backend and tailwindcss and blade in the frontend",
     img: webizyCode,
     link: "https://webizycode.com/",
     tech: ["Laravel, Blade, Tailwindcss, Javascript, MySQL, HTML"],
@@ -352,92 +353,12 @@ export const works = [
   },
   {
     id: 2,
-    title: "Webizyde agency",
+    title: "Benzagroupe",
     description:
-      "Global leaders in environmental and advisory solutions; helping clients achieve their sustainability goals.",
-    img: webizyCode,
-    link: "https://webizycode.com/",
-    tech: ["Laravel, Blade, Tailwindcss, Javascript, MySQL, HTML"],
-    stack: "Fullstack",
-  },
-  {
-    id: 3,
-    title: "Webizyde agency",
-    description:
-      "Global leaders in environmental and advisory solutions; helping clients achieve their sustainability goals.",
-    img: webizyCode,
-    link: "https://webizycode.com/",
-    tech: ["Laravel, Blade, Tailwindcss, Javascript, MySQL, HTML"],
-    stack: "Fullstack",
-  },
-  {
-    id: 4,
-    title: "Webizyde agency",
-    description:
-      "Global leaders in environmental and advisory solutions; helping clients achieve their sustainability goals.",
-    img: webizyCode,
-    link: "https://webizycode.com/",
-    tech: ["Laravel, Blade, Tailwindcss, Javascript, MySQL, HTML"],
-    stack: "Fullstack",
-  },
-  {
-    id: 5,
-    title: "Webizyde agency",
-    description:
-      "Global leaders in environmental and advisory solutions; helping clients achieve their sustainability goals.",
-    img: webizyCode,
-    link: "https://webizycode.com/",
-    tech: ["Laravel, Blade, Tailwindcss, Javascript, MySQL, HTML"],
-    stack: "Fullstack",
-  },
-  {
-    id: 6,
-    title: "Webizyde agency",
-    description:
-      "Global leaders in environmental and advisory solutions; helping clients achieve their sustainability goals.",
-    img: webizyCode,
-    link: "https://webizycode.com/",
-    tech: ["Laravel, Blade, Tailwindcss, Javascript, MySQL, HTML"],
-    stack: "Fullstack",
-  },
-  {
-    id: 7,
-    title: "Webizyde agency",
-    description:
-      "Global leaders in environmental and advisory solutions; helping clients achieve their sustainability goals.",
-    img: webizyCode,
-    link: "https://webizycode.com/",
-    tech: ["Laravel, Blade, Tailwindcss, Javascript, MySQL, HTML"],
-    stack: "Fullstack",
-  },
-  {
-    id: 8,
-    title: "Webizyde agency",
-    description:
-      "Global leaders in environmental and advisory solutions; helping clients achieve their sustainability goals.",
-    img: webizyCode,
-    link: "https://webizycode.com/",
-    tech: ["Laravel, Blade, Tailwindcss, Javascript, MySQL, HTML"],
-    stack: "Fullstack",
-  },
-  {
-    id: 9,
-    title: "Webizyde agency",
-    description:
-      "Global leaders in environmental and advisory solutions; helping clients achieve their sustainability goals.",
-    img: webizyCode,
-    link: "https://webizycode.com/",
-    tech: ["Laravel, Blade, Tailwindcss, Javascript, MySQL, HTML"],
-    stack: "Fullstack",
-  },
-  {
-    id: 10,
-    title: "Webizyde agency",
-    description:
-      "Global leaders in environmental and advisory solutions; helping clients achieve their sustainability goals.",
-    img: webizyCode,
-    link: "https://webizycode.com/",
-    tech: ["Laravel, Blade, Tailwindcss, Javascript, MySQL, HTML"],
-    stack: "Fullstack",
-  },
+      "Consultancy website build with Reactjs in the frontend and WordPress API in the backend",
+    img: benzagroupe,
+    link: "https://benzagroupe.com/",
+    tech: ["Reactjs, Tailwindcss, HTML"],
+    stack: "Frontend",
+  }
 ];
