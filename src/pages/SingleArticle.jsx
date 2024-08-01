@@ -42,7 +42,7 @@ const SingleArticle = () => {
 
   return (
     <section className="w-full h-fit bg-bg-longue bg-cover bg-center bg-no-repeat p-3 relative">
-      <main className="container mx-auto rounded-2xl pt-8 pb-16 lg:pt-16 lg:pb-24 bg-gray-50 dark:bg-gray-900 antialiased">
+      <main className="container mx-auto rounded-2xl pt-8 pb-16 lg:pt-16 lg:pb-24 bg-gray-50 antialiased">
         <div className="flex justify-between px-4 mx-auto max-w-[300px] sm:max-w-[600px] lg:max-w-[900px]">
           <article className="mx-auto w-full max-w-2xl format format-sm sm:format-base lg:format-lg format-blue dark:format-invert">
             <header className="mb-4 lg:mb-6 not-format">
