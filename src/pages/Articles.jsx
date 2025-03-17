@@ -20,7 +20,7 @@ const Articles = () => {
         setAllPosts(reversedPosts);
         setLoading(false);
       } catch (error) {
-        console.error("Error fetching posts:", error);
+        //console.error("Error fetching posts:", error);
         setLoading(false);
       }
     };

@@ -58,7 +58,7 @@ export const fetchPosts = async () => {
 
     return postsWithDetails;
   } catch (error) {
-    console.error("Error fetching posts:", error);
+    //console.error("Error fetching posts:", error);
     throw error;
   }
 };
@@ -124,7 +124,7 @@ export const fetchSinglePost = async (id) => {
     const data = await response.json();
     return data;
   } catch (error) {
-    console.error("Error fetching post:", error);
+    //console.error("Error fetching post:", error);
     throw error;
   }
 };

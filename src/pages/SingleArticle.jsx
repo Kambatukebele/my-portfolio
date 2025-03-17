@@ -16,7 +16,7 @@ const SingleArticle = () => {
         setPost(postData);
         setLoading(false);
       } catch (error) {
-        console.error("Error fetching post:", error);
+        // console.error("Error fetching post:", error);
         setLoading(false);
       }
     };

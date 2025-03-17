@@ -6,7 +6,7 @@ const DownProblem = () => {
     <>
       <div className="grid gap-4 grid-cols-1 grid-rows-1 sm:grid-cols-2 sm:grid-rows-2 md:grid-cols-3 lg:gap-10">
         {problems.map((problem) => {
-          return <CardProblem {...problem} />;
+          return <CardProblem key={problem.id} {...problem} />;
         })}
       </div>
       <div className="w-full flex justify-center items-center">

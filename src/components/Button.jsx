@@ -21,7 +21,7 @@ const Button = ({
     <>
       <button
         type={`${buttonType}`}
-        className={`${buttonExtraClass} h-14 flex justify-center items-center gap-3 py-2 px-4 rounded-full mt-0 hover:bg-blue hover:shadow-2xl hover:shadow-blue hover:-mt-2 duration-200 ease-in-out`}
+        className={`${buttonExtraClass} h-14 flex justify-center items-center gap-3 py-2 px-4 rounded-full mt-0 hover:bg-blue hover:shadow-2xl hover:shadow-blue duration-200 ease-in-out`}
         onMouseEnter={handleMouseOver}
         onMouseLeave={handleMouseLeave}
       >
