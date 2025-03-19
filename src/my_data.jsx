@@ -22,7 +22,13 @@ import blog3 from "./assets/images/blog3.png";
 
 //Portfolio Images
 import webizyCode from "./assets/images/webizycodeVision.png";
-import benzagroupe from "./assets/images/benzagroupe.png";
+import benzagroupe from "./assets/images/benza.png";
+import ezagrow from "./assets/images/ezagrow.png";
+import kayor from "./assets/images/kayor.png";
+import kamba from "./assets/images/kamba.png";
+import devops from "./assets/images/devops.png";
+import react from "./assets/images/react.png";
+import react_bank from "./assets/images/react_bank.png";
 
 //Hero Navigation data
 import imageHero from "./assets/images/judens.png";
@@ -339,26 +345,65 @@ export const businessType = [
   },
 ];
 
+// import react from "./assets/images/react.png";
+// import react_bank from "./assets/images/react_bank.png";
+
 //My recent work
 export const works = [
   {
     id: 1,
-    title: "Webizycode agency",
-    description:
-      "Digital Marketing Agency build with the Laravel in the backend and tailwindcss and blade in the frontend",
-    img: webizyCode,
-    link: "https://webizycode.com/",
-    tech: ["Laravel, Blade, Tailwindcss, Javascript, MySQL, HTML"],
-    stack: "Fullstack",
+    title: "Ezagrow LLC",
+    img: ezagrow,
+    link: "https://ezagrowllc.com/",
+    stack: "laravel",
   },
   {
     id: 2,
-    title: "Benzagroupe",
-    description:
-      "Consultancy website build with Reactjs in the frontend and WordPress API in the backend",
+    title: "webizy agency",
+    img: webizyCode,
+    link: "https://webizycode.com/",
+    stack: "wordpress",
+  },
+  {
+    id: 3,
+    title: "benzagroupe",
     img: benzagroupe,
     link: "https://benzagroupe.com/",
-    tech: ["Reactjs, Tailwindcss, HTML"],
-    stack: "Frontend",
-  }
+    stack: "wordpress",
+  },
+  {
+    id: 4,
+    title: "kayor group",
+    img: kayor,
+    link: "https://kayorgroup.com/",
+    stack: "wordpress",
+  },
+  {
+    id: 4,
+    title: "qukic",
+    img: devops,
+    link: "https://lightgray-dugong-905323.hostingersite.com/",
+    stack: "react",
+  },
+  {
+    id: 5,
+    title: "kamba",
+    img: kamba,
+    link: "https://kambatukebele.com",
+    stack: "react",
+  },
+  {
+    id: 6,
+    title: "react",
+    img: react,
+    link: "https://kambatukebele.com",
+    stack: "react",
+  },
+  {
+    id: 7,
+    title: "react_bank",
+    img: react_bank,
+    link: "https://kambatukebele.com",
+    stack: "react",
+  },
 ];
