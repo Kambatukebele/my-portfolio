@@ -29,6 +29,7 @@ import kamba from "./assets/images/kamba.png";
 import devops from "./assets/images/devops.png";
 import react from "./assets/images/react.png";
 import react_bank from "./assets/images/react_bank.png";
+import magebit from "./assets/images/magebit.png";
 
 //Hero Navigation data
 import imageHero from "./assets/images/judens.png";
@@ -404,6 +405,13 @@ export const works = [
     title: "react_bank",
     img: react_bank,
     link: "https://kambatukebele.com",
+    stack: "react",
+  },
+  {
+    id: 8,
+    title: "Magebit",
+    img: magebit,
+    link: "https://brown-walrus-330517.hostingersite.com/",
     stack: "react",
   },
 ];
