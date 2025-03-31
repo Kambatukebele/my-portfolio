@@ -19,7 +19,7 @@ const Nav = ({ logo }) => {
         buttonExtraClass="hidden w-52 bg-purple900  text-white xl:flex"
         buttonIconClass="bg-white text-blue"
         buttonType="button"
-        buttonLink="https://calendly.com/kambatukebele/30min"
+        buttonLink="https://calendly.com/kambatukebele/new-meeting"
       />
       {/* Hamburger and close Menu */}
       <div className="xl:hidden">
