@@ -381,7 +381,7 @@ export const works = [
   },
   {
     id: 4,
-    title: "qukic",
+    title: "qubitz",
     img: devops,
     link: "https://lightgray-dugong-905323.hostingersite.com/",
     stack: "react",
