@@ -30,7 +30,8 @@ import devops from "./assets/images/devops.png";
 import react from "./assets/images/react.png";
 import react_bank from "./assets/images/react_bank.png";
 import magebit from "./assets/images/magebit.png";
-import sweet from "./assets/images/sweetbodyshop.png"
+import sweet from "./assets/images/sweetbodyshop.png";
+import office from "./assets/images/office.png"
 
 //Hero Navigation data
 import imageHero from "./assets/images/judens.png";
@@ -407,6 +408,13 @@ export const works = [
     img: sweet,
     link: "https://sweetbodyshop.fr/",
     stack: "shopify",
+  },
+  {
+    id: 8,
+    title: "Office",
+    img: office,
+    link: "https://snow-otter-874875.hostingersite.com/",
+    stack: "html+css+js",
   },
 
 ];
