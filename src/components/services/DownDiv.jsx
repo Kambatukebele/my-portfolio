@@ -14,7 +14,7 @@ const DownDiv = () => {
           buttonText="Book a Call With me"
           buttonExtraClass="bg-purple900 text-white"
           buttonIconClass="bg-white text-blue"
-          buttonLink="https://calendly.com/kambatukebele/30min"
+          buttonLink="https://calendly.com/kambatukebele/new-meeting"
         />
       </div>
     </>

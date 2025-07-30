@@ -18,13 +18,13 @@ const Hero = ({ image }) => {
             buttonText="Free Consultation"
             buttonExtraClass="flex w-52 bg-purple900 text-white mb-1 lg:mb-0 lg:mr-2"
             buttonIconClass="bg-white text-blue"
-            buttonLink="https://calendly.com/kambatukebele/30min"
+            buttonLink="https://calendly.com/kambatukebele/new-meeting"
           />
           <Button
             buttonText="View my videos"
             buttonExtraClass="flex w-52 bg-transparent border border-blue text-blue hover:text-white"
             buttonIconClass="bg-blue text-white hover:bg-white"
-            buttonLink="https://www.youtube.com/channel/UCIT6MIpRklmSfkJ88DEGhPQ"
+            buttonLink="https://www.youtube.com/@kambatukebeleshopify"
           />
         </div>
       </div>

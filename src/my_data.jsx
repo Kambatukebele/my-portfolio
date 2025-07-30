@@ -30,6 +30,7 @@ import devops from "./assets/images/devops.png";
 import react from "./assets/images/react.png";
 import react_bank from "./assets/images/react_bank.png";
 import magebit from "./assets/images/magebit.png";
+import sweet from "./assets/images/sweetbodyshop.png"
 
 //Hero Navigation data
 import imageHero from "./assets/images/judens.png";
@@ -362,8 +363,8 @@ export const works = [
     id: 2,
     title: "webizy agency",
     img: webizyCode,
-    link: "https://webizycode.com/",
-    stack: "wordpress",
+    link: "https://webizy.cz/",
+    stack: "react",
   },
   {
     id: 3,
@@ -383,35 +384,29 @@ export const works = [
     id: 4,
     title: "qubitz",
     img: devops,
-    link: "https://lightgray-dugong-905323.hostingersite.com/",
+    link: "https://brown-walrus-330517.hostingersite.com/",
     stack: "react",
   },
   {
     id: 5,
-    title: "kamba",
-    img: kamba,
-    link: "https://kambatukebele.com",
+    title: "react bank landing page",
+    img: react_bank,
+    link: "https://peachpuff-scorpion-429517.hostingersite.com/",
     stack: "react",
   },
   {
     id: 6,
-    title: "react",
-    img: react,
-    link: "https://kambatukebele.com",
+    title: "Magebit",
+    img: magebit,
+    link: "https://lightgray-dugong-905323.hostingersite.com/",
     stack: "react",
   },
   {
     id: 7,
-    title: "react_bank",
-    img: react_bank,
-    link: "https://kambatukebele.com",
+    title: "Sweet body Shop",
+    img: sweet,
+    link: "https://sweetbodyshop.fr/",
     stack: "react",
   },
-  {
-    id: 8,
-    title: "Magebit",
-    img: magebit,
-    link: "https://brown-walrus-330517.hostingersite.com/",
-    stack: "react",
-  },
+
 ];
