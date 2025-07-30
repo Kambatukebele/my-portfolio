@@ -406,7 +406,7 @@ export const works = [
     title: "Sweet body Shop",
     img: sweet,
     link: "https://sweetbodyshop.fr/",
-    stack: "react",
+    stack: "shopify",
   },
 
 ];

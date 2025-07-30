@@ -11,7 +11,7 @@ const DownPortfolio = () => {
   return (
     <div>
       <div className="w-full flex justify-center gap-4 items-center flex-wrap mb-20">
-        {["all", "shopify", "react", "wordpress", "laravel"].map((stack) => {
+        {["all", "shopify", "react", "html+css+js", "wordpress", "laravel"].map((stack) => {          
           return (
             <button
               key={stack}
